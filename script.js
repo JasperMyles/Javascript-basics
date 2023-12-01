@@ -120,64 +120,64 @@
 
 // JAVASCRIPT ARRAYS START OF THE SECTION
 
-let arrayOfNumbers = ["one", "two", "three", "four", "five", "six"];
- arrayOfNumbers[2] = "changed"
- console.log(arrayOfNumbers)
+// let arrayOfNumbers = ["one", "two", "three", "four", "five", "six"];
+//  arrayOfNumbers[2] = "changed"
+//  console.log(arrayOfNumbers)
 
 // Arrays Methods
 
 // Push - add to end of an array
 
-let movieLine = ['tom', 'nancy']
-movieLine.push('james')
-// You can also multiple line words
+// let movieLine = ['tom', 'nancy']
+// movieLine.push('james')
+// // You can also multiple line words
 
-movieLine.push('joshua', 'micheal', 'dude')
+// movieLine.push('joshua', 'micheal', 'dude')
 
 // Pop - Remove from the end of the array
 // You can also use push and pop together
 
-movieLine.pop()
-movieLine.pop()
+// movieLine.pop()
+// movieLine.pop()
 
 //  Shift- remove from the start of the array
 
-let newLine = ['maze', 'travel', 'animation', 'edition', 'valery'];
+// let newLine = ['maze', 'travel', 'animation', 'edition', 'valery'];
 
-newLine.shift()
-newLine.shift()
+// newLine.shift()
+// newLine.shift()
 // unshift- add to the start of the array
-newLine.unshift('might', 'glory', 'power')
+// newLine.unshift('might', 'glory', 'power')
 
-// Concatination of an array
+// // Concatination of an array
 
-let cats = ['blue', 'kitty']
+// let cats = ['blue', 'kitty']
 
-let dogs = ['rusty', 'wyatt']
+// let dogs = ['rusty', 'wyatt']
 
-let joined = cats.concat(dogs)
+// let joined = cats.concat(dogs)
 
 // Includes check if an array contains a particular words or number
 
-let checkers = joined.includes('rusty')
+// let checkers = joined.includes('rusty')
 
 // IndexOf checks if for the index numbers of the array
 
-joined.indexOf('rusty')
+// joined.indexOf('rusty')
 
 // Reverse of an array it changes the array- it reorganises and reordered it and reverses it
 
-joined.reverse()
+// joined.reverse()
 
 // Slice removes some numbers from an array, and when you splice it can include the start and not the stop and can take two
 // arguement the start and stop
 
-let colors = ['red', 'blue', 'yello', 'orange', 'indigo', 'lemon'];
-colors.slice(1)
-colors.slice(3, 5)
+// let colors = ['red', 'blue', 'yello', 'orange', 'indigo', 'lemon'];
+// colors.slice(1)
+// colors.slice(3, 5)
 
 // Splice it changes the contents of an array by removing or replacing existing and or adding new element in place and destructive to the original array
-colors.splice(2,1)
+// colors.splice(2,1)
 
 // sorting of arrays and sort collect functions
 
@@ -185,40 +185,40 @@ colors.splice(2,1)
 
 // Nexted Arrays we can store arrays inside another errays
 
-const gameBoard = [["o", "x", null], ["o", null, "x"], ["o", "x", null]]
+// const gameBoard = [["o", "x", null], ["o", null, "x"], ["o", "x", null]]
 
 // Javascript Object Literals
 
-const kitchenSink = {
+// const kitchenSink = {
 
-favNum: 8898777,
-isFunny: true,
-colors: 'Blue',
-flavors: ["grape", "Mango", "cherry"]
-};
+// favNum: 8898777,
+// isFunny: true,
+// colors: 'Blue',
+// flavors: ["grape", "Mango", "cherry"]
+// };
 
 // Updating Data inside an object
 
-const midTerms = {
-    danielle: 96, 
-    thomas: 78,
+// const midTerms = {
+//     danielle: 96, 
+//     thomas: 78,
 
-}
-midTerms.danielle
-midTerms.thomas
+// }
+// midTerms.danielle
+// midTerms.thomas
 
 // changing the object in an Object
 
-midTerms.danielle = 80;
+// midTerms.danielle = 80;
 
-midTerms["thomas"] = 50;
+// midTerms["thomas"] = 50;
 
 //  Adding Properties to an object
 
-midTerms.esther = 99;
-midTerms.solo = 77;
+// midTerms.esther = 99;
+// midTerms.solo = 77;
 
-console.log(midTerms)
+// console.log(midTerms)
 
 //  Nesting an array inside an object and nesting an object inside an object
 
@@ -277,3 +277,29 @@ console.log(midTerms)
 // console.log("Congrats you got it correctly")
 
 
+ // Javascript Function 
+
+//  function singSong(){
+//     console.log("Hello Everyone")
+//  }
+//  singSong()
+
+//  Functions Accepts an arguement
+
+// function greet(firstName){
+//     console.log(`firstname is: ${firstName}`)
+// }
+ 
+// function greet(firstName, lastName){
+//     console.log(`Hey there, ${firstName}!`)
+// }
+
+// greet('clooney', 'george')
+
+function repeat(str, numTimes){
+    let result = '';
+    for (let i = 0; i < numTimes; i++){
+        result += str
+    }
+    console.log(result)
+}
