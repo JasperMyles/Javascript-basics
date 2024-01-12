@@ -296,10 +296,106 @@
 
 // greet('clooney', 'george')
 
-function repeat(str, numTimes){
-    let result = '';
-    for (let i = 0; i < numTimes; i++){
-        result += str
-    }
-    console.log(result)
-}
+// Function that accept multiple arguement
+
+// function repeat(str, numTimes){
+//     let result = '';
+//     for (let i = 0; i < numTimes; i++){
+//         result += str
+//     }
+//     console.log(result)
+// }
+
+// The Return Key word
+
+// function add(x, y){
+//     if(typeof x !== 'number' || typeof y !== 'number'){
+//         return false;
+//     }
+//     return x + y;
+// }
+
+
+//  function HelloPeople(){
+//     console.log("I need help")
+//  }
+//  HelloPeople()
+
+//  function GreetMe(name){
+//     console.log(`Hi ${name}`)
+//  }
+//  GreetMe("Joshua")
+
+// Function Expression
+
+// const add = function (x,y){
+//     return x + y;
+// }
+// add(4,8)
+
+// const square = function (x,y){
+//     let powr = Math.pow(x, 2)
+//     let hey = Math.pow(y, 2)
+//     console.log(`${hey}, ${powr}`)
+
+    
+// }
+
+// Higher order function
+
+// Every method is a fucntion
+// const myMath = {
+//     PI: 3.23443,
+//     square: function(num){
+//         return num * 2;
+//     },
+//     cube: function(change){
+//         return change ** 2
+//     }
+// }
+
+// Javascript Keyword Called this
+
+
+// Javascript keyword called try and catch
+
+// Javascript Call back and array functions
+
+// Using foreach call back function to loop throught an array
+
+// const number = [1, 2, 3, 4,5, 10, 40, 50]
+
+// number.forEach(function(e){
+//     if(e % 2 == 0){
+//         console.log(e)
+//     }
+// })
+
+// Map creates an array with teh results of calling a callback on every element in the array
+
+
+// let innitialName = ["joshua", "gad", "samuel", "moo", "godwin", "success", "mine"]
+
+// const finalName = innitialName.map(function(c){
+//     return c.toUpperCase()
+// })
+
+// const nomber = number.map(function(d){
+//     return d.toString()
+// })
+
+
+const fullNames = [{first: 'Albus', last: 'Dumbledore'},
+                 {first: 'Harry', last: 'Potter'},
+                  {first: 'Hermione', last: 'Granger'},
+                   {first: 'Ron', last: 'Weasley'}, 
+                   {first: 'Rubeus', last: 'Hagrid'},
+                    {first: 'Minerva', last: 'McGonagall'},
+                     {first: 'Severus', last: 'Snape'}];
+
+const firstName = fullNames.map(function(f){
+    return f.first
+})
+
+// Arrow functions
+
