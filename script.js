@@ -385,17 +385,107 @@
 // })
 
 
-const fullNames = [{first: 'Albus', last: 'Dumbledore'},
-                 {first: 'Harry', last: 'Potter'},
-                  {first: 'Hermione', last: 'Granger'},
-                   {first: 'Ron', last: 'Weasley'}, 
-                   {first: 'Rubeus', last: 'Hagrid'},
-                    {first: 'Minerva', last: 'McGonagall'},
-                     {first: 'Severus', last: 'Snape'}];
+// const fullNames = [{first: 'Albus', last: 'Dumbledore'},
+//                  {first: 'Harry', last: 'Potter'},
+//                   {first: 'Hermione', last: 'Granger'},
+//                    {first: 'Ron', last: 'Weasley'}, 
+//                    {first: 'Rubeus', last: 'Hagrid'},
+//                     {first: 'Minerva', last: 'McGonagall'},
+//                      {first: 'Severus', last: 'Snape'}];
 
-const firstName = fullNames.map(function(f){
-    return f.first
-})
+// const firstName = fullNames.map(function(f){
+//     return f.first
+// })
 
 // Arrow functions
 
+// const newArrow = (x,y) =>{
+//     return x + y;
+
+// }
+
+// const newShot = (m) =>{
+//  return Math.random(Math.floor() * 10) + 1
+// }
+
+// const greet = m =>{
+//     console.log(`Hey ${m}`)
+// }
+
+// Implicit return 
+
+// const rollDie = () => (
+//     Math.floor(Math.random() * 10) + 1
+// )
+
+// Callback function using delay in javascript
+
+// setTimeout(() => {
+//     console.log("I am on top of the world")
+// }, 3000)
+
+// setTimeout(()=>{
+//     console.log("I need food give me money")
+// }, 5000)
+
+// Settime Interval will repeatedly call the function for a number of milli second
+
+// const id = setInterval(() => {
+//     console.log(Math.random())
+// }, 2000);
+ 
+// Clear interval is used to stop set interval
+
+// clearInterval(id)
+
+// Filter
+
+// const userNames = ['mark', 'staceysmom1978', 'q29832128238983', 'carrie98', 'MoanaFan'];
+
+// const wiNer = userNames.filter(m => m.length < 10)
+
+// Every and some
+
+// const hiKerno = [1, 2, 3, 4, 5, 6, 7, 8, 88, 8, 3, 4, 10, 11, 14];
+
+// const nibo = hiKerno.every(m => m >= 1)
+
+// Reduce method boil things down to bring out one value and we can also specify the innitial value of the min
+
+// Spreading of an array
+
+// const hiKerno = [1, 2, 3, 4, ,5, 6, 7, 8, 88, 8, 3, 4, 10, 11, 14];
+// const meeMes = ['aki', 'pawpaw', 'stripper', 'man']
+
+// const miNe = [...hiKerno, ...meeMes, 'man']
+// console.log(miNe)
+
+// spreading of object
+
+// const oBj = {
+//     Name: Joe,
+//     other: Ssain,
+//     Jean: [1, 2, 3, 5, 6],   
+// }
+
+// const teory = [...oBj.Name]
+// console.log(teory)
+
+// Rest in javascript
+
+// const hiKerno = [1, 2, 3, 4, 5, 6, 7, 8, 88, 8, 3, 4, 10, 11, 14];
+// function myGuy(sum){
+//     for(let i of hiKerno){
+      
+        
+//     }
+//     return sum
+// }
+
+// Destructuring an array
+
+// const nameOfRunner = ['Joshua', 'Michael', 'Julius', 'Mikel']
+
+// const [first, second, ...everyoneelse] = nameOfRunner
+
+// Destructuring of an object
